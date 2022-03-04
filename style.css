@@ -1,0 +1,180 @@
+/* Common Style  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+
+}
+
+button {
+    border-radius: 0px;
+    padding: 10px, 24px, 10px, 24px;
+    background: #E02C6D;
+    padding: 11px 34px;
+    color: white;
+    border-radius: 6px;
+    font-size: 18px;
+}
+
+/* ------------------->
+Header style -
+------------------------> */
+
+ header{
+     max-width: 1200px;
+     border: 2px solid rgb(128, 0, 0);
+     background-color: #2d25a0;
+ }
+ 
+ /* header copy 2 style color */
+ .bg{
+     /* background-color: #18191f; */
+     
+
+ }
+/* end  */
+
+ #header_container{
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     margin-top: 153px;
+     margin-bottom: 86px;
+
+ }
+
+.header_left h1{
+    font-size: 64px;
+    line-height: 80px;
+    color: #ffffff;
+    font-weight: 700;
+}
+ 
+.header_right div{
+    max-width: 556px;
+}
+
+.header_right div img{
+ width: 100%;
+}
+
+header:hover .header_right img {
+    transform: rotate(330deg) scale(0.6);
+    transition: 2s ease-in-out;
+
+}
+/*------------------<
+ Players Start  
+ --------------------->*/
+
+.Container{
+    max-width: 992px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    margin-top: 70px;
+
+}
+
+.players{
+    background: #FFFFFF;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+padding: 6px;
+}
+
+.player_img {
+width: 300px;
+height: 256px;
+}
+.player_img img{
+width: 100%
+}
+
+.player_datil h2{
+    font-size: 28px;
+    line-height: 40px;
+    color: #18191f;
+    font-weight: 700;
+    font-family: "Poppins";
+}
+
+.player_datil p{
+    font-size: 18px;
+    line-height: 26px;
+    color: #6c6c6c;
+    font-weight: 500;
+    font-family: "Poppins";
+}
+
+/* ----  */
+
+.coba_container{
+    width: 992px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 165px;
+    margin-bottom: 150px;
+    align-items: center;
+}
+
+.coba_left {
+    max-width: 451px;
+}
+
+.coba_left h1{
+    font-size: 48px;
+line-height: 60px;
+color: #0a0826;
+font-weight: 700;
+font-family: "Poppins";
+}
+
+.coba_left p {
+    font-size: 16px;
+    line-height: 28px;
+    color: #6c6c6c;
+    font-weight: 400;
+    font-family: "Poppins";
+    margin: 30px 0;
+    text-align: start;
+}
+
+
+.coba_right {
+    max-width: 500px;
+    
+}
+.coba_right img{
+    max-width: 500px;
+    width: 100%;
+}
+
+
+
+footer{
+    max-width: 500px;
+    margin: auto;
+}
+
+
+    footer img {
+        max-width: 416px;
+    }
+
+    p {
+ text-align: center;
+    }
+
+    footer p i {
+        margin: 0  20px 0 20px;
+        text-align: right;
+    }
+
+    .copy {
+        text-align: center;
+        margin: 22px;
+    }

@@ -1,0 +1,53 @@
+/* 700  == 992px */
+@media screen and (max-width: 992px) {
+  
+    header{
+        max-width: 992px; 
+    }
+ #header_container{
+     flex-direction: column;
+    row-gap: 100px;
+ }
+
+
+ .Container{
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.coba_container{
+    flex-direction: column;
+    row-gap: 100px;
+    width: 100%;
+}
+
+.coba_left {
+    max-width: 500px;
+}
+}
+
+/* ---  */
+
+@media screen and (max-width: 688px){
+    .Container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .coba_left {
+        max-width: 472px;
+        width: 100%;
+        padding: 0 5px;
+    }
+
+    .coba_right img {
+        max-width: 468px;
+        width: 100%;
+    }
+    
+footer{
+    text-align: center;
+}
+    footer img {
+        max-width: 200px;
+        width: 100%;
+    } 
+}
